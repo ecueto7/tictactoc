@@ -1,0 +1,91 @@
+/* h1 {
+    color: hotpink;
+    text-align: center;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 25vw);
+    gap: 10px;
+}
+
+.square {
+    border-color: black;
+    outline: solid;
+    border-radius: 100px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.blue{
+    background-color: blue;
+}
+
+#one {
+    grid-column: 1;
+    grid-row: 1;
+}
+#two {
+    grid-column: 2;
+    grid-row: 1;
+}
+#three {
+    grid-column: 3;
+    grid-row: 1;
+}
+#four {
+    grid-column: 1;
+    grid-row: 2;
+}
+#five {
+    grid-column: 2;
+    grid-row: 2;
+}
+#six {
+    grid-column: 3;
+    grid-row: 2;
+}
+#seven {
+    grid-column: 1;
+    grid-row: 3;
+}
+#eight {
+    grid-column: 2;
+    grid-row: 3;
+}
+#nine {
+    grid-column: 3;
+    grid-row: 3;
+} */
+
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 30vw);
+    gap: 10px;
+    background-color: gray;
+}
+
+.square {
+    border-color: black;
+    outline: solid;
+    text-align: center;
+    vertical-align: center;
+    background-color:aqua;
+}
+
+/* .blue{
+    background-color:bisque; */
+/* } */
+
+body {
+    background-color:burlywood;
+}
+
